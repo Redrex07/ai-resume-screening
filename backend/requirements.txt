@@ -1,7 +1,6 @@
 flask
 flask-cors
+gunicorn
 PyPDF2
 python-docx
 scikit-learn
-nltk
-gunicorn
