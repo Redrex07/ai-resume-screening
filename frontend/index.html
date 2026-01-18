@@ -230,7 +230,8 @@ function analyze() {
   formData.append("resume", file);
   formData.append("jd", jd);
 
-  fetch("http://127.0.0.1:5000/api/ai-analyze", {
+fetch("https://ai-resume-rg-enerhwcyddg7ave6.centralindia-01.azurewebsites.net/api/ai-analyze", {
+
     method: "POST",
     body: formData
   })
